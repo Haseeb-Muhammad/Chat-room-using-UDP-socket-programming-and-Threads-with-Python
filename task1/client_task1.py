@@ -25,6 +25,7 @@ while True:
     message = input()
     if message.lower() == "exit":
         client_socket.sendto(f"{nickname} left the chat!".encode(), server_address)
+        client_socket.sendto(message.encode(), server_address)
         break
     client_socket.sendto(f"{nickname}: {message}".encode(), server_address)
 
