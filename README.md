@@ -54,6 +54,3 @@ A simple peer-to-peer chat application with file sharing capabilities, built usi
 
 ## Contributing  
 Feel free to contribute to the project by opening issues or submitting pull requests.  
-
-## License  
-This project is open-source and available under the MIT License.
